@@ -8,7 +8,8 @@ import product_list
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=options, service=Service('./chromedriver-win64/chromedriver.exe'))
-
+product_url=open('ptoduct_url.text','r')
+product_url.readlines
 driver.maximize_window()
 for images in image:
         driver.get('https://www.digikala.com/search/category-mobile-phone/product-list/')
