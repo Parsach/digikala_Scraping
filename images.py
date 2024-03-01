@@ -41,24 +41,5 @@ for i in lines:
         break
 driver.quit()
 img_url.close()
-
-
-
-
-# driver.maximize_window()
-# for images in image:
-#         driver.get('https://www.digikala.com/search/category-mobile-phone/product-list/')
-#         time.sleep(3)
-#         parentWindow= driver.window_handles
-#         print(images.get_attribute('href'))
-#         all_url=re.search(r'(/product/.*?/)',str(images.get_attribute('href')))
-#         # all_url=re.search(r'.*product/dkp(.+?)\/',str(images.get_attribute('href')))
-          
-
-
-
-
-         
-# driver.close()
 print('finish')
 
