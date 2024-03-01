@@ -23,6 +23,7 @@ driver.implicitly_wait(15)
 #         driver.execute_script("window.scrollTo(0,%i)"%scroll)
 
 
+
 image=driver.find_element(By.XPATH,"//div[@class['product-list_ProductList__pagesContainer__zAhrX product-list_ProductList__pagesContainer--withSidebar__17nz1 product-list_ProductList__pagesContainer--withoutSidebar__aty9j']]")
 image_22=image.find_elements(By.XPATH,"//a[@class['block cursor-pointer relative bg-neutral-000 overflow-hidden grow py-3 px-4 lg:px-2 h-full styles_VerticalProductCard--hover__ud7aD']]")
 
